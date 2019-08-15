@@ -141,22 +141,27 @@ Liability classes
 * gross profit/margin = sales - COGS
 * 2, 10 net 30: 2% discount if paid in 10 days, or pay full amount in 30 days
 * paid within discount period: credit cash & inventory
-* Sales: debit AR, credit sales, debit COGS, debit inventory
-* returns: debit sales return, credit AR, debit inventory, credit COGS
+* Sales: debit AR, credit sales, debit COGS, credit inventory
+* returns: debit **sales return**, credit AR, debit inventory, credit COGS
 * Net sales: sales - sales return - sales discount
 * Net sales - COGS = gross profit
-* Customer pay with discount: debit sales discount, cash, credit AR
+* Customer pay with discount: **debit sales discount, cash**, credit AR
 * Net income = net sales - operating - non-operating (interest expense, interest revenue, gain/loss of equipment sales)
 * FOB shipping point: buyer incurs shipping expense
   - buyer increase (debit inventory), credit cash
 * FOB destination: seller incurs shipping expense
-  - seller debit **freight out** (operating expense), credit inventory expense
+  - seller debit **freight out** (operating expense), credit cash
 * Sale:
   - DR cash, CR sales
   - DR COGS, CR inventory
 
 #### Stock
+* Common stock holders get to vote, but get reward last in liquidation
+* authorized stock: how many can issue? = issued stock + treasury stock
+* outstanding = issued stock - treasury stock
+* only outstanding stock pays dividend
 * Par value + paid in val in excess of par = cash debit
+  - no-par stock: cash = common stock + paid in val in excess of stated value
 * treasury stock is a buffer of retained earning
   * sell above treasury stock price: add additional to paid in treasury
   * sell below purchase price:
@@ -170,7 +175,12 @@ Liability classes
       - if depleted, debit retained earning
     - credit paid in treasury stock if selling above (increase SE)
 
+#### Dividend
+* Declaration: DR dividend CR payable
+* Payment: DR payable, CR cash
+
 #### Cash Flow
+CLAD for Operation Cash Flow
 * AR increase: decrease cash flow
 * AP increase: increase cash flow
 * Loss & Gain:
@@ -181,3 +191,5 @@ Liability classes
 Dr dep exp
   Cr accu dep
 ```
+
+Final: 4, 8, 11, 12
