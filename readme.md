@@ -176,7 +176,7 @@ Liability classes
     - credit paid in treasury stock if selling above (increase SE)
 
 #### Dividend
-* Declaration: DR dividend CR payable
+* Declaration: DR dividend(Retained Earning) CR payable
 * Payment: DR payable, CR cash
 
 #### Cash Flow
@@ -187,9 +187,25 @@ CLAD for Operation Cash Flow
   - loss: add to cash flow
   - gain: subtract from cash flow
 * add depreciation
+* don't care about expense
 ```
 Dr dep exp
   Cr accu dep
 ```
+
+Operating acticity (income statement):
+* AR, Payable
+* inventory
+* depreciation
+* collecting interest, dividend
+
+Financing activity (long term SE):
+* issuing stocks / repurchase treasury stock
+* paying Dividend
+* issuing/redeem bond, debt (borrow money)
+
+investment (long term asset)
+* lending money, collecting cash on loan (not borrowing/repaying)
+* acquiring/sale investment/property
 
 Final: 4, 8, 11, 12
